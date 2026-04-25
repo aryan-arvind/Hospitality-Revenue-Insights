@@ -1,0 +1,16 @@
+# Power BI
+*.tmp
+*.pbix.backup
+*.pbit
+*.pbip
+*.pbip.backup
+
+# Office Temp Files
+~$*
+
+# OS Files
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
