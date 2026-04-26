@@ -1,41 +1,39 @@
-# Nivasa Collection: Hospitality Revenue & Booking Analytics
+# Hospitality Revenue Analytics Dashboard
 
 ![Project Banner](Screenshot%202026-02-01%20162923.png)
 
 ## 📋 Project Overview
-This project presents a comprehensive Data Analytics solution for **Nivasa Collection**, a premium hospitality brand. The objective was to analyze historical booking data from resorts to uncover actionable insights regarding revenue trends, cancellation patterns, and customer demographics.
+This project presents a professional **Power BI Dashboard** solution for the hospitality domain. The objective was to analyze historical booking data from a premium resort collection to uncover actionable insights regarding revenue performance, booking patterns, and guest demographics.
 
-The dashboard empowers stakeholders to make data-driven decisions to optimize occupancy rates and maximize RevPAR (Revenue Per Available Room).
+The dashboard empowers management to transition from reactive to proactive decision-making, optimizing occupancy rates and maximizing **RevPAR** (Revenue Per Available Room).
 
-## 🚀 Key Features & Insights
-- **Revenue Performance**: Analysis of Total Revenue, ADR (Average Daily Rate), and RevPAR across different time periods.
-- **Booking Trends**: Visualization of seasonal booking patterns and lead-time analysis.
-- **Cancellation Analysis**: Identification of key factors contributing to high cancellation rates and their impact on revenue.
-- **Customer Segmentation**: Profiling guests by country, market segment, and distribution channel.
-- **Operational Efficiency**: Insights into stay duration and guest preferences (meal plans, room types).
+## 🚀 Dashboard Insights & KPIs
+- **Revenue Intelligence**: Real-time tracking of **Total Revenue**, **ADR** (Average Daily Rate), and **RevPAR** with period-over-period comparisons.
+- **Booking Dynamics**: Analysis of lead times, stay duration (weekdays vs. weekends), and seasonal fluctuations.
+- **Cancellation Mitigation**: Deep dive into cancellation reasons and their financial impact, enabling better overbooking strategies.
+- **Market Segmentation**: guest profiling by distribution channels (TA/TO, Direct, Corporate) and geographic origin.
 
-## 🛠️ Tech Stack
-- **Power BI Desktop**: For data modeling, DAX calculations, and interactive visualization.
-- **Excel/Power Query**: For data cleaning, transformation, and ETL processes.
-- **DAX (Data Analysis Expressions)**: Developed complex measures for time-intelligence and KPI tracking.
+## 🛠️ Technical Implementation
+### Data Modeling & ETL
+- **Power Query**: Implemented complex data cleaning pipelines to handle missing values and inconsistent date formats.
+- **Star Schema**: Designed an optimized data model with dedicated Fact and Dimension tables for high-performance filtering.
 
-## 📊 Dataset Description
-The analysis is based on the `resortbookings.xlsx` dataset, which contains detailed records of bookings, including:
-- Booking dates and arrival information.
-- Stay duration (weekdays/weekends).
-- Guest details (adults, children, babies).
-- Meal plans and room types.
-- Cancellation status and lead time.
+### DAX Measures
+Developed advanced DAX measures including:
+- **Time Intelligence**: `Year-to-Date (YTD)` and `Same Period Last Year (SPLY)` comparisons.
+- **Dynamic KPIs**: Conditional formatting for performance indicators against set targets.
+- **Moving Averages**: To smooth out daily revenue volatility and identify long-term trends.
 
-## 📂 Project Structure
-- `Hospitality Domain Dashboard.pbix`: The main Power BI project file.
-- `resortbookings.xlsx`: The source dataset used for the analysis.
-- `A152_AryanTuralkar_APDD_Exp 1.pdf`: Documentation detailing the experimental setup and findings.
+## 💼 Business Impact
+By leveraging this dashboard, hospitality managers can:
+1. **Reduce Revenue Leakage**: By identifying high-cancellation segments and adjusting deposit policies.
+2. **Optimize Pricing**: Adjusting ADR based on seasonal demand and booking lead times.
+3. **Targeted Marketing**: Focusing ad spend on the most profitable geographic regions and market segments.
 
-## 🛠️ How to Use
-1. Clone this repository.
-2. Open `Hospitality Domain Dashboard.pbix` using Power BI Desktop.
-3. If the data source path needs updating, point it to the `resortbookings.xlsx` file in the root directory.
+## 📂 Project Assets
+- `Hospitality Domain Dashboard.pbix`: The core Power BI report.
+- `resortbookings.xlsx`: The source dataset containing over 100k+ booking records.
+- `A152_AryanTuralkar_APDD_Exp 1.pdf`: Project documentation and methodology.
 
 ---
-*Created by Aryan Turalkar as part of the APDD (Advanced Power BI Data Dashboard) series.*
+*Created by Aryan Turalkar | Data Analytics Portfolio*
